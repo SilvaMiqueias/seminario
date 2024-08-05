@@ -1,0 +1,8 @@
+language: java
+
+rmv:
+  17
+
+jobs:
+  - name: test
+  - echo test para iniciar
