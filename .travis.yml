@@ -4,6 +4,8 @@ jdk:
 
 before_install:
   - chmod +x gradlew
+  - ./gradlew assembleRelease
+
 
 script:
   - ./gradlew clean build
